@@ -10,7 +10,7 @@ const AdminRoute=require("./controller/AdminRoute");
 const UserRoute=require("./controller/UserRoute");
 
 mongoose.set("strictQuery",true);
-mongoose.connect("mongodb+srv://pvnsmaruthikumar:1234@cluster0.c5qjk7h.mongodb.net/language_app");
+mongoose.connect("mongodb+srv://devirishitha184:devi123@cluster0.s5rdp70.mongodb.net/");
 var db=mongoose.connection;
 db.on("open",()=>console.log("connected to db"));
 db.on("error",()=>console.log("Error occured while connection db"));
